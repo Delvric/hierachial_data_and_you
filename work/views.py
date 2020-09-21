@@ -1,7 +1,6 @@
-from django.shortcuts import render
 from django.shortcuts import render, HttpResponseRedirect, reverse
-from file_system.models import File_System
-from file_system.forms import AddFilesForm
+from work.models import File_System
+from work.forms import AddFilesForm
 # Create your views here.
 
 

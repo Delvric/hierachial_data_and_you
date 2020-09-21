@@ -21,9 +21,10 @@ urlpatterns = [
 ]
 
 from django.urls import path
-from file_system import views
+from work import views
 
 urlpatterns = [
+    path('admin/', admin.site.urls),c
     path('', views.show_files_system, name='homepage'),
     path('addfiles/', views.add_files_view)
 ]
