@@ -24,7 +24,7 @@ from django.urls import path
 from work import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),c
+    path('admin/', admin.site.urls),
     path('', views.show_files_system, name='homepage'),
     path('addfiles/', views.add_files_view)
 ]
